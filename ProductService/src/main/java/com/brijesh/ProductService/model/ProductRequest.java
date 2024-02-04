@@ -1,0 +1,1 @@
+package com.brijesh.ProductService.model;import lombok.Builder;import lombok.Data;@Data@Builderpublic class ProductRequest {    private String name;    private String description;    private long price;    private long quantity;}

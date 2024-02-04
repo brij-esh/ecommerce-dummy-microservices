@@ -1,0 +1,1 @@
+package com.brijesh.orderService.model;import lombok.*;import java.time.Instant;@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class OrderResponse {    private long id;    private long productId;    private long quantity;    private Instant orderDate;    private OrderStatus orderStatus;    private double totalAmount;    private PaymentMode mode;}

@@ -1,0 +1,1 @@
+package com.brijesh.orderService.model;public enum OrderStatus {    CREATED,    PENDING,    FAILED,    DISPATCHED,    DELAYED,    RETURNED,    OUT_FOR_DELIVERY,    OUT_FOR_PICKUP,}

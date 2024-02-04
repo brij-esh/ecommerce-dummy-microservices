@@ -1,0 +1,1 @@
+package com.brijesh.ProductService.model;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructorpublic class ProductResponse {    private long id;    private String name;    private String description;    private long price;    private long quantity;}

@@ -1,0 +1,1 @@
+package com.brijesh.orderService.repository;import com.brijesh.orderService.entity.OrderEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface OrderRepository extends JpaRepository<OrderEntity, Long> {}

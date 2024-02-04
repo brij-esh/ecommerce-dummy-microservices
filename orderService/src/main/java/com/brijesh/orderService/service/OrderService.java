@@ -1,0 +1,1 @@
+package com.brijesh.orderService.service;import com.brijesh.orderService.model.OrderRequest;import com.brijesh.orderService.model.OrderResponse;public interface OrderService {    OrderResponse placeOrder(OrderRequest orderRequest);}
